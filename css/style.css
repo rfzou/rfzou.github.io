@@ -1,0 +1,156 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* navbar items */
+/* .navbar covers the entire bar */
+.navbar {
+    padding-top: 2vh;
+    padding-left: 1vw;
+    background-color: #212121;
+    color: #fafafa;
+    height:5vh;
+}
+
+
+/* Home button on the left navbar */
+.header-home {
+    float: left;
+    color: inherit;
+    display: inline-block;
+}
+
+#home-img {
+    height: 5vh;
+    width: auto;
+}
+a:visited {
+    text-decoration: none;
+}
+.header-items {
+    float: right;
+    text-align: right;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: inherit;
+    margin: 0 20px;
+    text-transform: lowercase;
+    display: inline-block;
+    border-left: 2px solid rgb(141, 141, 141);
+    padding-left: 4px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+/* End navbar, start header band (scramble + name) */
+
+.char {
+    text-align: center;
+    color: #fafafa;
+    font-weight: 100;
+    font-size: 42px;
+    display: imn
+}
+
+.header {
+    padding-top: 5vh;
+    height: 10vh;
+    background-color: #212121;
+}
+.scramble-container {
+    height: 19vh;
+    width: 100%;
+    background: #212121;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text {
+    font-weight: 100;
+    font-size: 28px;
+    color: #fafafa;
+}
+.dud {
+    color: #757575;
+}
+
+
+/* intro page */
+
+.image-circ {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10vw;
+    float: left;
+}
+
+#header-img {
+    width: auto;
+    max-width: 20vw;
+    height: auto;
+    max-height: 20vw;
+    position: relative;
+    display: block;
+    
+}
+
+.lander {
+    background-color: #474747;
+    height: 49vh;
+    padding-top: 10vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 42px;
+    color: #fafafa;
+    border-bottom: 2px solid;
+}
+
+p {
+    padding-top: 10px;
+    color: #fafafa;
+    font-weight: 100;
+    letter-spacing: inherit;
+}
+
+.intro-text {
+    display: inline-block;
+    float: right;
+    width: 40vw;
+}
+
+.landing-column {
+    display: inline-block;
+    height: 40vh;
+    float: right;
+    margin-right:15vw;
+    
+}
+
+.header-text {
+    display: inline-block;
+    float: right;
+    
+}
