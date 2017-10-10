@@ -84,12 +84,7 @@ var TextScramble = function () {
 // var phrases = ['Mathematics', 'Mathematics', 'Business Administration', 'Actuarial Science',, 'Hackathons', 'UI/UX Design', 'and walking the path'];
 
 var phrases = [
-  'Mathematics',
-  'Frontend Development',
-  'Business Administration',
-  'Actuarial Science',
-  'Hackathons',
-  'UI/UX Design',
+  'Contact me'
 ];
 
 var el = document.querySelector('.text');

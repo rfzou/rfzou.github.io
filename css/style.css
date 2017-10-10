@@ -13,13 +13,17 @@ body {
 /* navbar items */
 /* .navbar covers the entire bar */
 .navbar {
-    padding-top: 2vh;
+    padding: 2vh 0;
     padding-left: 1vw;
     background-color: #212121;
     color: #fafafa;
     height:5vh;
 }
 
+a {
+    color: #fafafa;
+    text-decoration: none
+}
 
 /* Home button on the left navbar */
 .header-home {
@@ -32,9 +36,9 @@ body {
     height: 5vh;
     width: auto;
 }
-a:visited {
-    text-decoration: none;
-}
+
+
+
 .header-items {
     float: right;
     text-align: right;
@@ -53,6 +57,7 @@ li {
     display: inline-block;
     border-left: 2px solid rgb(141, 141, 141);
     padding-left: 4px;
+    font-weight: 100;
 }
 
 li:hover {
@@ -71,7 +76,7 @@ li:hover {
 }
 
 .header {
-    padding-top: 5vh;
+    padding-top: 3vh;
     height: 10vh;
     background-color: #212121;
 }
@@ -91,7 +96,6 @@ li:hover {
 .dud {
     color: #757575;
 }
-
 
 /* intro page */
 
@@ -158,4 +162,37 @@ p {
 
 
 /* Contact styles */
+
+.contact-container {
+    background-color: #474747;
+    height: 62vh;
+    padding-top: 10vh;
+    color: #fafafa;
+}
+
+.contact-header {
+    text-decoration: none;
+    border: 0;
+    margin-top: -6vh;
+    margin-bottom: 6vh;
+
+}
+.social-media {
+    display: inline-block;
+    float: left;
+    width: 50vw;
+    text-align: center;
+}
+
+
+.snail {
+    display: inline-block;
+    float: right;
+    width: 50vw;
+    text-align: center;
+}
+
+.contact-item {
+    padding: 2vh 0;
+}
 
